@@ -1,6 +1,6 @@
 # AUDUSD 3d OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-6_730_rows-blue)](https://getdata.finance/datasets/audusd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/audusd)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_720_rows-blue)](https://getdata.finance/datasets/audusd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/audusd)
 
 ### -> [**Download the full AUDUSD dataset on getdata.finance**](https://getdata.finance/datasets/audusd)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 3d OHLCV** for **Australian Dollar / US Dollar** (Forex)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/audusd) · **6,730** `3d` rows in the full archive
+- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/audusd) · **1,720** `3d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3d` sample updated in sync
 
-> **Sample on GitHub** · `AUDUSD_3d.csv` (19 rows, `2026-07-09` -> `2026-09-01`, 1.33 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/audusd)** — **6,730** `3d` rows (full `1m`: 5,263,593), **11 timeframes**, `1971-01-02` -> `2026-09-01`.
+> **Sample on GitHub** · `AUDUSD_3d.csv` (244 rows, `2024-09-02` -> `2026-09-01`, 27.11 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/audusd)** — **1,720** `3d` rows (full `1m`: 5,263,475), **11 timeframes**, `2012-06-22` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Australian Dollar / US Dollar · Forex | Australian Dollar / US Dollar · Forex |
 | Timeframes | `3d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 3d rows | 19 | **6,730** |
-| Size | 1.33 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/audusd) |
-| Period | `2026-07-09` -> `2026-09-01` | `1971-01-02` -> `2026-09-01` |
+| 3d rows | 244 | **1,720** |
+| Size | 27.11 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/audusd) |
+| Period | `2024-09-02` -> `2026-09-01` | `2012-06-22` -> `2026-09-01` |
 | File | `AUDUSD_3d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/audusd) |
 | Coverage report | — | [AUDUSD coverage](https://getdata.finance/coverage/audusd) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AUDUSD_3d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-09T00:00:00+00:00 | 0.69493 | 0.69787 | 0.69425 | 0.69583 | 154553 |
-| 2026-07-12T00:00:00+00:00 | 0.6943 | 0.7021 | 0.69125 | 0.7005 | 577442 |
-| 2026-07-15T00:00:00+00:00 | 0.7005 | 0.70125 | 0.69481 | 0.69608 | 658716 |
-| 2026-07-18T00:00:00+00:00 | 0.69644 | 0.70267 | 0.69615 | 0.69987 | 303471 |
-| 2026-07-21T00:00:00+00:00 | 0.69987 | 0.70211 | 0.6961 | 0.69786 | 653204 |
+| 2024-09-02T00:00:00+00:00 | 0.67678 | 0.67946 | 0.66853 | 0.67139 | 586565.01081 |
+| 2024-09-05T00:00:00+00:00 | 0.67139 | 0.67673 | 0.66598 | 0.66674 | 490384.7692 |
+| 2024-09-08T00:00:00+00:00 | 0.66674 | 0.6689 | 0.6641 | 0.66563 | 369245.10226 |
+| 2024-09-11T00:00:00+00:00 | 0.66563 | 0.67327 | 0.66254 | 0.6701 | 659505.46366 |
+| 2024-09-14T00:00:00+00:00 | 0.6707 | 0.67536 | 0.67013 | 0.67515 | 166466.99873 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-20T00:00:00+00:00 | 0.71123 | 0.71801 | 0.7106 | 0.71694 | 151711 |
-| 2026-08-23T00:00:00+00:00 | 0.71566 | 0.71768 | 0.71376 | 0.7151 | 226797 |
-| 2026-08-26T00:00:00+00:00 | 0.7151 | 0.71763 | 0.71244 | 0.7128 | 169690 |
-| 2026-08-29T00:00:00+00:00 | 0.71518 | 0.71807 | 0.71387 | 0.71439 | 311267 |
-| 2026-09-01T00:00:00+00:00 | 0.71439 | 0.71527 | 0.71389 | 0.71456 | 23562 |
+| 2026-08-20T00:00:00+00:00 | 0.72371 | 0.72945 | 0.72167 | 0.72838 | 318548.83097 |
+| 2026-08-23T00:00:00+00:00 | 0.71566 | 0.71768 | 0.71376 | 0.71641 | 288028 |
+| 2026-08-26T00:00:00+00:00 | 0.71641 | 0.72074 | 0.71555 | 0.71591 | 429657 |
+| 2026-08-29T00:00:00+00:00 | 0.71518 | 0.71708 | 0.71518 | 0.71707 | 151017 |
+| 2026-09-01T00:00:00+00:00 | 0.71707 | 0.71807 | 0.71387 | 0.71456 | 181558 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **AUDUSD** archive on **[getdata.finance](https://getdata.finance/datasets/audusd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **6,730** rows at `3d`, plus all other timeframes in the same ZIP.
+The complete **AUDUSD** archive on **[getdata.finance](https://getdata.finance/datasets/audusd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,720** rows at `3d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AUDUSD dataset on getdata.finance](https://getdata.finance/datasets/audusd)**
 
